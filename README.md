@@ -1,2 +1,3 @@
 # personalWebsite
-This simple one-page website is a way for people to have a very quick and easy personable website that aggregates your activity and positions a simple logo, a portrait and some description text in a nicely-formatted manner. This is licensed under the MIT and GPL licenses.
+This is a simple one-page website which is a way for me to present myself. 
+In this project I try first of all to clean the already created page and get rid of the unnecessarily writen code that doesnt do anything. And later I will try to add new futures and update the website acording to my resume.
