@@ -447,13 +447,6 @@ footer .footer-below {
 }
 
 
-.hr-white {
-    height: 2px;
-    background-color:#EEE;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 75%;
-}
 
 .hr-grey {
     height: 2px;
@@ -461,5 +454,9 @@ footer .footer-below {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 75%;
+}
+
+.h-black-font{
+    color:#555;
 }
 

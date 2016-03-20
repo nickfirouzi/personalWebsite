@@ -9,10 +9,9 @@ TEL;HOME;VOICE:+46704076940
 TEL;CELL;VOICE:+46704076940
 TEL;WORK;FAX:
 ADR;WORK:;;;;;;
-ADR;HOME:;Nick Firouzi;;Stockholm;Solna;17172;Sweden
-URL;HOME:http://www.Firouzi.se/nick
+ADR;HOME:;Nick Firouzi;;Stockholm;
+URL;HOME:http://www.nick.firouzi.se/
 URL;WORK:
-EMAIL;INTERNET:nick@Firouzi.com
+EMAIL;INTERNET:nick@firouzi.se
 EMAIL;INTERNET:nickfirouzi@hotmail.com
-PHOTO;VALUE=URL;TYPE=jpg:/img/profile_3.png
 END:VCARD
