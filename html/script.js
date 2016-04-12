@@ -7,7 +7,7 @@ d3.csv("data.csv", function(data) {
         d.size = +d.size;
     });
 
-    d3.layout.cloud().size([window.innerWidth, 500])
+    d3.layout.cloud().size([1000, 500])
         .words(data)
         .padding(5)
         .rotate(function() { return Math.floor((Math.random() * 60) + 1); })
@@ -21,7 +21,7 @@ d3.csv("data.csv", function(data) {
             .attr("width", window.innerWidth)
             .attr("height", 600)
             .append("g")
-            .attr("transform", "translate("+(window.innerWidth-700)+",250)")
+            .attr("transform", "translate("+(window.innerWidth-800)+",250)")
             .selectAll("text")
             .data(data)
             .enter().append("text")
