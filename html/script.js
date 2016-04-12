@@ -7,12 +7,12 @@ d3.csv("data.csv", function(data) {
         d.size = +d.size;
     });
 
-    d3.layout.cloud().size([window.innerWidth, 600])
+    d3.layout.cloud().size([window.innerWidth, 500])
         .words(data)
         .padding(5)
-        .rotate(function() { return ~~(Math.random() * Math.random()*2) * Math.random()*100; })
+        .rotate(function() { return Math.floor((Math.random() * 60) + 1); })
         .font("Impact")
-        .fontSize(function(d) { return Math.max(1, Math.min(d.size, 1000)); })
+        .fontSize(function(d) { return d.size; })
         .on("end", draw)
         .start();
 
@@ -21,7 +21,7 @@ d3.csv("data.csv", function(data) {
             .attr("width", window.innerWidth)
             .attr("height", 600)
             .append("g")
-            .attr("transform", "translate(500,300)")
+            .attr("transform", "translate("+(window.innerWidth-700)+",250)")
             .selectAll("text")
             .data(data)
             .enter().append("text")
