@@ -1,6 +1,5 @@
 text,size
 Java,80
-C/C++,40
 SQL,40
 HTML,50
 CSS,30
@@ -9,23 +8,23 @@ Bootstrap,30
 Thymeleaf,30
 MySQL,50
 XML,40
-access,30
+Access,20
 Glassfish,30
 Tomcat,30
 Spring MVC,30
-JPA,20
+JPA,40
 JSF,30
-Git,35
-SourceTree,30
-Intelij,60
-Netbeans,30
+Git,40
+SourceTree,40
+Intellij,60
+Netbeans,20
 JUnit,25
-Selenium,20
-Maven,30
-OOP,40
-TDD,20
-DDD,20
-Scrum,20
+Selenium,10
+Maven,20
+OOP,50
+TDD,30
+DDD,10
+Scrum,40
 Database Design,50
-Jira,20
+Jira,40
 Jenkins,20
