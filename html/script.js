@@ -1,7 +1,7 @@
 var fill = d3.scale.category20();
 
 
-d3.csv("data.csv", function (data) {
+window.onresize = d3.csv("data.csv", function (data) {
     data.forEach(function (d) {
         d.size = +d.size;
     });
@@ -22,7 +22,7 @@ d3.csv("data.csv", function (data) {
     function draw(words) {
         d3.select(".SkillCloud").append("svg")
             .attr("width", window.innerWidth)
-            .attr("height", (window.innerHeight/2))
+            .attr("height", (window.innerHeight / 2))
             .append("g")
             .attr("transform", "translate(" + (window.innerWidth) / 3 + ",240)")
             .selectAll("text")
@@ -45,9 +45,9 @@ d3.csv("data.csv", function (data) {
 });
 
 
-
-
-
+window.onload = function () {
+    document.getElementById("lastModified").innerHTML = new Date(document.lastModified).toISOString().slice(0, 10).replace(/-/g, "-");
+};
 
 
 
