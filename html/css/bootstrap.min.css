@@ -6112,3 +6112,13 @@ a.bg-danger:focus, a.bg-danger:hover {
         display: none !important
     }
 }
+
+
+.header-picture {
+    background-image: url('http://nick.firouzi.se/img/profile_1.png');
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
+}

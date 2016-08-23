@@ -22,9 +22,9 @@ d3.csv("data.csv", function (data) {
     function draw(words) {
         d3.select(".SkillCloud").append("svg")
             .attr("width", window.innerWidth)
-            .attr("height", 500)
+            .attr("height", (window.innerHeight/2))
             .append("g")
-            .attr("transform", "translate(" + (window.innerWidth) / 3 + ",250)")
+            .attr("transform", "translate(" + (window.innerWidth) / 3 + ",240)")
             .selectAll("text")
             .data(data)
             .enter().append("text")
