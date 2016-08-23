@@ -18,6 +18,12 @@
     <script src="script.js"></script>
     <!--end of word Cloud-->
 
+    <script>
+        window.onload = function () {
+            document.getElementById("lastModified").innerHTML = new Date(document.lastModified).toISOString().slice(0, 10).replace(/-/g, "-");
+        };
+    </script>
+
 
 </head>
 <body id="page-top" class="index">
@@ -330,8 +336,12 @@
         <div class="footer-below">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 ">
+                    <div class="col-lg-6 pull-lg-left">
                         Copyright Nick Firouzi 2016
+                    </div>
+                    <div class="col-lg-6 pull-lg-right">
+                        Last Modified:
+                        <span id="lastModified"></span>
                     </div>
                 </div>
             </div>
@@ -597,7 +607,7 @@
                             customers..</p>
                         <ul class="list-inline item-details">
                             <li>Client:
-                                <strong><a href="http://omegapoint.se/">Omegapoint AB</a>
+                                <strong><a href="http://www.omegapoint.se/">Omegapoint AB</a>
                                 </strong>
                             </li>
                             <li>Date:
@@ -628,10 +638,19 @@
 <script src="js/cbpAnimatedHeader.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="js/freelancer.js"></script>
+
+
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"/>
+
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"/>
+
+
 <link href="css/bootstrap.min.css" rel="stylesheet"/>
 <!-- Custom CSS -->
 <link href="css/freelancer.css" rel="stylesheet"/>
