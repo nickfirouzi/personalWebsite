@@ -6122,3 +6122,12 @@ a.bg-danger:focus, a.bg-danger:hover {
     /* Make the background image cover the area of the <div>, and clip the excess */
     background-size: cover;
 }
+
+.box {
+    padding: 5px;
+    text-align: justify;
+    margin-top: 2px;
+}
+.box:first-child {
+    margin-top: none;
+}
