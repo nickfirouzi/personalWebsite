@@ -317,7 +317,12 @@
                                 navigationControl: false,
                                 mapTypeControl: false,
                                 scaleControl: false,
-                                draggable: false
+                                draggable: false,
+                                panControl:false,
+                                zoomControl:false,
+                                streetViewControl:false,
+                                overviewMapControl:false,
+                                rotateControl:false
                             };
                             map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
                             marker = new google.maps.Marker({
