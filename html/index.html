@@ -7,6 +7,7 @@
     <meta name="google-site-verification" content="a38r6cVK1RPwfx6x2tS5f40ukIr3liiPqsQIfaM66Hs"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Nick Firouzi</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/png/128/25/25694.png"/>
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -15,6 +16,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/myScripts.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93950571-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-93950571-1');
+    </script>
+
 </head>
 <body id="page-top">
 <!-- Fixed navbar -->
@@ -173,8 +183,7 @@
                         map: map,
                         position: new google.maps.LatLng(59.32932349999999, 18.068580800000063)
                     });
-                }
-                ;
+                };
                 google.maps.event.addDomListener(window, 'load', init_map);
             </script>
         </div>
