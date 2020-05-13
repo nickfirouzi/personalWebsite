@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "kubernitiesname"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "kubernitiesname"
+    spec:
+      containers:
+        - name: "kubernitiesname"
+          image: "contanerregisteryname.azurecr.io/kubernitiesname"
+          ports:
+          - containerPort: 8080
